@@ -5,7 +5,7 @@ import { FaRegMessage } from "react-icons/fa6";
 import { FaQuestionCircle } from "react-icons/fa";
 import { IoSettingsSharp } from "react-icons/io5";
 import { LuSquareActivity } from "react-icons/lu";
-import { Context } from "../context/context";
+import { Context } from "../context/Context";
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);

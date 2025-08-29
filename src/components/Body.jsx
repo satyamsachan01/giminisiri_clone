@@ -8,7 +8,7 @@ import { FcGallery } from "react-icons/fc";
 import { IoMicOutline } from "react-icons/io5";
 import { LuSendHorizontal } from "react-icons/lu";
 import { BsStars } from "react-icons/bs";
-import { Context } from "../context/context";
+import { Context } from "../context/Context";
 
 const Body = () => {
   const {
@@ -41,7 +41,7 @@ const Body = () => {
             <div className="cards">
               <div className="card">
                 <p>Suggest beautiful places to see on an upcoming road trip</p>
-                <IoCompassOutline size="30px"  />
+                <IoCompassOutline size="30px" />
               </div>
 
               <div className="card">
